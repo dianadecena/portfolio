@@ -1,0 +1,62 @@
+.container {
+  min-height: 100vh;
+  position: relative;
+  background-color: black;
+}
+
+.bg {
+  position: absolute;
+  margin-left: 13%;
+  margin-right: auto;
+}
+
+.about {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10%;
+  margin-left: 19.5%;
+}
+
+.projects {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 22%;
+  margin-left: 41.5%;
+}
+
+.contact {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25%;
+  margin-left: 74%;
+}
+
+.box-info {
+  position: absolute;
+  border: white;
+  margin-top: 25%;
+  margin-left: 10%;
+  border-width: 2px;
+  border-style: solid;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+}
+
+.nombre {
+  font-size: 36px;
+  margin-left: 4%;
+  margin-top: 4%;
+  font-weight: 700;
+}
+
+.descripcion {
+  font-size: 18px;
+  margin-left: 4%;
+  margin-right: 2%;
+  margin-top: 5%;
+  font-weight: 100;
+}
