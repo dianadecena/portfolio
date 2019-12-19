@@ -10,6 +10,12 @@
   margin-right: auto;
 }
 
+.bg-mobile {
+  position: absolute;
+  margin-left: 13%;
+  margin-right: auto;
+}
+
 .about {
   position: absolute;
   font-size: 20px;
@@ -62,8 +68,24 @@
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-      background-color: blueviolet;
+    .bg {
+      display: none;
+    }
+
+    .box-info {
+      display: none;
+    }
+
+    .about {
+      display: none;
+    }
+
+    .projects {
+      display: none;
+    }
+
+    .contact {
+      display: none;
     }
 }
 
