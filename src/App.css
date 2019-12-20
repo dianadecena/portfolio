@@ -6,7 +6,7 @@
 
 .bg {
   position: absolute;
-  margin-left: 13%;
+  margin-left: 4%;
   margin-right: auto;
 }
 
@@ -29,7 +29,7 @@
   font-size: 20px;
   font-weight: 700;
   margin-top: 22%;
-  margin-left: 41.5%;
+  margin-left: 42%;
 }
 
 .contact {
@@ -37,7 +37,7 @@
   font-size: 20px;
   font-weight: 700;
   margin-top: 25%;
-  margin-left: 74%;
+  margin-left: 75%;
 }
 
 .box-info {
@@ -67,25 +67,8 @@
   font-weight: 100;
 }
 
-@media screen and (max-width: 768px) {
-    .bg {
-      display: none;
-    }
-
-    .box-info {
-      display: none;
-    }
-
-    .about {
-      display: none;
-    }
-
-    .projects {
-      display: none;
-    }
-
-    .contact {
-      display: none;
-    }
+@media (max-width: 500px) {
+  .bg {
+    display: none;
+  }
 }
-

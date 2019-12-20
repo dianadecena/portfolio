@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import bg from './neon-lights.png';
-import bgmobile from './neon-mobile.png';
+import bg from './neon-lights.svg';
+import bgmobile from './neon-mobile.svg';
 
 const App = () => {
 
