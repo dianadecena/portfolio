@@ -85,6 +85,26 @@
   }
 
   .box-info {
-    display: none;
+    margin-top: 75%;
+    margin-left: 6%;
+    border-width: 2px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+  }
+
+  .descripcion {
+    font-size: 10px;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 5%;
+    font-weight: 100;
+  }
+
+  .nombre {
+    font-size: 26px;
+    margin-left: 4%;
+    margin-top: 4%;
+    font-weight: 700;
   }
 }
