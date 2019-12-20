@@ -10,12 +10,6 @@
   margin-right: auto;
 }
 
-.bg-mobile {
-  position: absolute;
-  margin-left: 0%;
-  margin-right: auto;
-}
-
 .about {
   position: absolute;
   font-size: 20px;
@@ -72,6 +66,12 @@
     display: none;
   }
 
+  .bg-mobile {
+    position: absolute;
+    margin-left: 0%;
+    margin-right: auto;
+  }
+
   .about {
     display: none;
   }
@@ -86,6 +86,87 @@
 
   .box-info {
     margin-top: 98%;
+    margin-left: 10%;
+    border-width: 2px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+  }
+
+  .descripcion {
+    font-size: 10px;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 5%;
+    font-weight: 100;
+  }
+
+  .nombre {
+    font-size: 26px;
+    margin-left: 4%;
+    margin-top: 4%;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1300px) {
+  .bg-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1000px) {
+  .bg-mobile {
+    display: none;
+  }
+
+  .bg {
+    position: absolute;
+    width: 95%;
+    margin-left: 4%;
+    margin-right: auto;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .projects {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+  .bg {
+    position: absolute;
+    width: 95%;
+    margin-left: 4%;
+    margin-right: auto;
+  }
+
+  .bg-mobile {
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .projects {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .box-info {
+    margin-top: 30%;
     margin-left: 10%;
     border-width: 2px;
     border-style: solid;
