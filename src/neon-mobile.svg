@@ -71,14 +71,14 @@
     <filter id="Trazado_2" x="101.803" y="4.947" width="156" height="131" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="6" result="blur-2"/>
-      <feFlood flood-color="#7d7d80"/>
+      <feFlood flood-color="#535354"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
     <filter id="Trazado_6" x="101.803" y="218.947" width="156" height="131" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="6" result="blur-3"/>
-      <feFlood flood-color="#7d7d80"/>
+      <feFlood flood-color="#535354"/>
       <feComposite operator="in" in2="blur-3"/>
       <feComposite in="SourceGraphic"/>
     </filter>
@@ -92,21 +92,21 @@
     <filter id="Trazado_4" x="184.591" y="4.947" width="156" height="131" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="6" result="blur-5"/>
-      <feFlood flood-color="#7d7d80"/>
+      <feFlood flood-color="#535354"/>
       <feComposite operator="in" in2="blur-5"/>
       <feComposite in="SourceGraphic"/>
     </filter>
     <filter id="Trazado_5" x="101.591" y="111.947" width="156" height="131" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="6" result="blur-6"/>
-      <feFlood flood-color="#7d7d80"/>
+      <feFlood flood-color="#535354"/>
       <feComposite operator="in" in2="blur-6"/>
       <feComposite in="SourceGraphic"/>
     </filter>
     <filter id="Trazado_7" x="184.591" y="218.947" width="156" height="131" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="6" result="blur-7"/>
-      <feFlood flood-color="#7d7d80"/>
+      <feFlood flood-color="#535354"/>
       <feComposite operator="in" in2="blur-7"/>
       <feComposite in="SourceGraphic"/>
     </filter>
