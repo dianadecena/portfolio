@@ -12,7 +12,7 @@
 
 .bg-mobile {
   position: absolute;
-  margin-left: 13%;
+  margin-left: 4%;
   margin-right: auto;
 }
 
@@ -69,6 +69,22 @@
 
 @media (max-width: 500px) {
   .bg {
+    display: none;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .projects {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .box-info {
     display: none;
   }
 }
