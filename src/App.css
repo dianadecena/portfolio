@@ -123,7 +123,7 @@
 
   .box-info {
     margin-top: 68%;
-    margin-left: 5%;
+    margin-left: 8%;
     border-width: 2px;
     border-style: solid;
     width: 150px;
@@ -148,38 +148,38 @@
   .contact-box {
     position: absolute;
     border: white;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-top: 120%;
-    width: 160px;
-    height: 30px;
-    border-radius: 18px;
+    width: 200px;
+    height: 42px;
+    border-radius: 20px;
     background: #2316D8;
     box-shadow: 0px 0px 12px #2316D8;
   }
   
   .github-icon {
-    font-size: 8px;
+    font-size: 12px;
     position: absolute;
     margin-top: 2%;
     margin-left: 5%;
   }
   
   .instagram-icon {
-    font-size: 8px;
+    font-size: 12px;
     position: absolute;
     margin-top: 2%;
     margin-left: 30%;
   }
   
   .linkedin-icon {
-    font-size: 8px;
+    font-size: 12px;
     position: absolute;
     margin-top: 2%;
     margin-left: 53%;
   }
   
   .email-icon {
-    font-size: 8px;
+    font-size: 12px;
     position: absolute;
     margin-top: 2%;
     margin-left: 75%;
