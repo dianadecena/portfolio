@@ -122,7 +122,7 @@
   }
 
   .box-info {
-    margin-top: 98%;
+    margin-top: 68%;
     margin-left: 5%;
     border-width: 2px;
     border-style: solid;
@@ -148,8 +148,8 @@
   .contact-box {
     position: absolute;
     border: white;
-    margin-left: 54%;
-    margin-top: 126%;;
+    margin-left: 20%;
+    margin-top: 120%;
     width: 160px;
     height: 30px;
     border-radius: 18px;
