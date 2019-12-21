@@ -98,7 +98,85 @@
   font-weight: 100;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) and (min-width: 350px) {
+  .bg {
+    display: none;
+  }
+
+  .bg-mobile {
+    position: absolute;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 20%;
+  }
+
+  .box-info {
+    margin-top: 85%;
+    margin-left: 8%;
+    border-width: 2px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+  }
+
+  .descripcion {
+    font-size: 10px;
+    margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 5%;
+    font-weight: 100;
+  }
+
+  .nombre {
+    font-size: 26px;
+    margin-left: 4%;
+    margin-top: 4%;
+    font-weight: 700;
+  }
+
+  .contact-box {
+    position: absolute;
+    border: white;
+    margin-left: 25%;
+    margin-top: 140%;
+    width: 200px;
+    height: 42px;
+    border-radius: 20px;
+    background: #2316D8;
+    box-shadow: 0px 0px 12px #2316D8;
+  }
+  
+  .github-icon {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  
+  .instagram-icon {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 30%;
+  }
+  
+  .linkedin-icon {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 53%;
+  }
+  
+  .email-icon {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 75%;
+  }
+  
+}
+
+@media (max-width: 500px) and (min-width: 440px) {
   .bg {
     display: none;
   }
@@ -107,6 +185,7 @@
     position: absolute;
     margin-left: 0%;
     margin-right: auto;
+    margin-top: 10%;
   }
 
   .about {
@@ -122,7 +201,7 @@
   }
 
   .box-info {
-    margin-top: 68%;
+    margin-top: 80%;
     margin-left: 8%;
     border-width: 2px;
     border-style: solid;
@@ -149,7 +228,7 @@
     position: absolute;
     border: white;
     margin-left: 13%;
-    margin-top: 120%;
+    margin-top: 140%;
     width: 200px;
     height: 42px;
     border-radius: 20px;
@@ -277,9 +356,9 @@
 @media (max-width: 800px) and (min-width: 600px) {
   .bg {
     position: absolute;
-    width: 95%;
     margin-left: 4%;
     margin-right: auto;
+    margin-top: 10%;
   }
 
   .bg-mobile {
