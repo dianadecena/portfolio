@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import bg from './neon-lights.svg';
 import bgmobile from './neon-mobile.svg';
+import menu from './neon-menu.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons"
@@ -12,6 +13,7 @@ const App = () => {
       <div className="container">
         <img src={bg} className="bg" alt="bg"/>
         <img src={bgmobile} className="bg-mobile" alt="bg-mobile"/>
+        <img src={menu} className="menu" alt="menu"/>
         <div className="box-info">
           <div className="nombre">
             <span>DIANA DECENA</span>

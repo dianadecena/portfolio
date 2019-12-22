@@ -10,6 +10,13 @@
   margin-right: auto;
 }
 
+.menu {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 96%;
+}
+
 .about {
   position: absolute;
   font-size: 20px;
@@ -28,7 +35,7 @@
 
 .contact {
   position: absolute;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   margin-top: 25%;
   margin-left: 75%;
@@ -37,12 +44,12 @@
 .box-info {
   position: absolute;
   border: white;
-  margin-top: 23%;
-  margin-left: 10%;
+  margin-top: 19%;
+  margin-left: 8%;
   border-width: 2px;
   border-style: solid;
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-color: black;
 }
 
@@ -84,14 +91,14 @@
 }
 
 .nombre {
-  font-size: 36px;
+  font-size: 42px;
   margin-left: 4%;
   margin-top: 4%;
   font-weight: 700;
 }
 
 .descripcion {
-  font-size: 18px;
+  font-size: 28px;
   margin-left: 4%;
   margin-right: 2%;
   margin-top: 5%;
@@ -107,6 +114,10 @@
 
   .bg {
     display: none;
+  }
+
+  .menu {
+    margin-left: 86%;
   }
 
   .bg-mobile {
@@ -190,6 +201,10 @@
 
   .bg {
     display: none;
+  }
+
+  .menu {
+    margin-left: 86%;
   }
 
   .bg-mobile {
