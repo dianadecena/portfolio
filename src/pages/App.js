@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
-import bg from './neon-lights.svg';
-import bgmobile from './neon-mobile.svg';
-import menu from './neon-menu.png';
+import '../styles/App.css';
+import bg from '../images/neon-lights.svg';
+import bgmobile from '../images/neon-lights.svg';
+import menu from '../images/neon-menu.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons"
