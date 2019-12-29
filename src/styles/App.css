@@ -166,6 +166,14 @@
     margin-top: 20%;
   }
 
+  .overlay ul {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+  }
+
   .box-info {
     margin-top: 90%;
     margin-left: 8%;
@@ -420,14 +428,18 @@
 
 @media (max-width: 800px) and (min-width: 600px) {
   .bg {
-    position: absolute;
-    margin-left: 4%;
-    margin-right: auto;
-    margin-top: 10%;
+    display: none;
+  }
+
+  .menu {
+    margin-left: 86%;
   }
 
   .bg-mobile {
-    display: none;
+    position: absolute;
+    margin-left: 0%;
+    margin-right: auto;
+    margin-top: 10%;
   }
 
   .about {

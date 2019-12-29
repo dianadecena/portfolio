@@ -2,7 +2,7 @@ import React from 'react';
 import { useSpring, animated as a } from "react-spring";
 import '../styles/App.css';
 import bg from '../images/neon-lights.svg';
-import bgmobile from '../images/neon-lights.svg';
+import bgmobile from '../images/neon-mobile.svg';
 import menu from '../images/neon-menu.png';
 import close from '../images/close.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
