@@ -49,16 +49,16 @@ const App = () => {
           <div className="overlay">
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <a className="deco-home" href="#home">Home</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a className="deco-about" href="#about">About</a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a className="deco-projects" href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a className="deco-contact" href="#contact">Contact</a>
               </li>
             </ul>
           </div>

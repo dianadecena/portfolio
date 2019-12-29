@@ -45,10 +45,30 @@
   font-size: 84px;
 }
 
+.overlay li {
+  margin-top: 10%;
+}
+
 .overlay ul li a {
   color: transparent;
   -webkit-text-stroke: 1px white;
   text-transform: uppercase !important;
+}
+
+.deco-home {
+  text-decoration-color: #7700FF;
+}
+
+.deco-about {
+  text-decoration-color: #00D3FF;
+}
+
+.deco-projects {
+  text-decoration-color: #FF00A1;
+}
+
+.deco-contact {
+  text-decoration-color: #2316D8;
 }
 
 .overlay ul li a:hover {
@@ -174,10 +194,14 @@
     font-size: 40px;
   }
 
+  .overlay li {
+    margin-top: 20%;
+  }
+
   .overlay ul {
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 40%;
     transform: translate(-50%, -50%);
     list-style: none;
   }
