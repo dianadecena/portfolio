@@ -1,19 +1,31 @@
 import React from 'react';
+import { useSpring, animated as a } from "react-spring";
 import '../styles/App.css';
 import bg from '../images/neon-lights.svg';
 import bgmobile from '../images/neon-lights.svg';
 import menu from '../images/neon-menu.png';
+import close from '../images/close.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 
 const App = () => {
 
-  return (
-      <div className="container">
-        <img src={bg} className="bg" alt="bg"/>
-        <img src={bgmobile} className="bg-mobile" alt="bg-mobile"/>
-        <img src={menu} className="menu" alt="menu"/>
+  const [showMenu, displayMenu] = React.useState(false);
+
+  const contentProps = useSpring({
+    opacity: showMenu ? 1 : 0
+  });
+
+    return (
+      <div className="container"> 
+      {!showMenu ? ( 
+      <div>
+      <div onClick={() => displayMenu(a => !a)}>
+      <img src={menu} className="menu" alt="menu"/>
+      </div>
+          <img src={bg} className="bg" alt="bg"/>
+          <img src={bgmobile} className="bg-mobile" alt="bg-mobile"/>
         <div className="box-info">
           <div className="nombre">
             <span>DIANA DECENA</span>
@@ -28,9 +40,32 @@ const App = () => {
           <a href="https://www.instagram.com/dianadecena" className="instagram-icon"><FontAwesomeIcon icon={faInstagram} color="white" size="3x"/></a>
           <a href="https://www.linkedin.com/in/diana-decena-1a9b9215a" className="linkedin-icon"><FontAwesomeIcon icon={faLinkedin} color="white" size="3x"/></a>
           <a href="mailto:dianadecena78@gmail.com" className="email-icon"><FontAwesomeIcon icon={faEnvelope} color="white" size="3x"/></a>
+      </div>
+      </div> ) :
+      ( <a.div style={contentProps}>
+        <div onClick={() => displayMenu(a => !a)}>
+        <img src={close} className="close" alt="menu"/>
         </div>
+          <div className="overlay">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+         </a.div> )}
     </div>
-  );
+    );
+
 };
 
 export default App;
