@@ -159,6 +159,10 @@
     margin-left: 86%;
   }
 
+  .close {
+    margin-left: 87%;
+  }
+
   .bg-mobile {
     position: absolute;
     margin-left: 3%;
@@ -256,6 +260,10 @@
 
   .menu {
     margin-left: 86%;
+  }
+
+  .close {
+    margin-left: 87%;
   }
 
   .bg-mobile {
