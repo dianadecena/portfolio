@@ -1,5 +1,6 @@
-import React from 'react';
-import { useSpring, animated as a } from "react-spring";
+import React, { useRef, useState } from 'react';
+import { useSpring, config, animated as a } from "react-spring";
+import { easeSinIn } from "d3-ease";
 import '../styles/App.css';
 import bg from '../images/neon-lights.svg';
 import bgmobile from '../images/neon-mobile.svg';
@@ -11,16 +12,32 @@ import { faGithub, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-i
 
 const App = () => {
 
+  let closeItem = useRef(null);
+  const [show, set] = useState(false)
+
   const [showMenu, displayMenu] = React.useState(false);
 
   const contentProps = useSpring({
-    opacity: showMenu ? 1 : 0
+    opacity: showMenu ? 1 : 0,
+    config: { duration: 2000, easing: easeSinIn },
   });
 
+  const principalProps = useSpring({
+    from: { opacity: 0},
+    to: { opacity: 1},
+    reset: true,
+    config: { duration: 2000, easing: easeSinIn },
+  });
+
+ const closeAnimation = useSpring({
+    from: { opacity: 0},
+    to: { opacity: 1},
+  });
+  
     return (
       <div className="container"> 
       {!showMenu ? ( 
-      <div>
+      <a.div style={principalProps}>
       <div onClick={() => displayMenu(a => !a)}>
       <img src={menu} className="menu" alt="menu"/>
       </div>
@@ -41,11 +58,11 @@ const App = () => {
           <a href="https://www.linkedin.com/in/diana-decena-1a9b9215a" className="linkedin-icon"><FontAwesomeIcon icon={faLinkedin} color="white" size="3x"/></a>
           <a href="mailto:dianadecena78@gmail.com" className="email-icon"><FontAwesomeIcon icon={faEnvelope} color="white" size="3x"/></a>
       </div>
-      </div> ) :
+      </a.div> ) :
       ( <a.div style={contentProps}>
-        <div onClick={() => displayMenu(a => !a)}>
+        <a.div style={closeAnimation} onClick={() => displayMenu(a => !a)}>
         <img src={close} className="close" alt="menu"/>
-        </div>
+        </a.div>
           <div className="overlay">
             <ul>
               <li>

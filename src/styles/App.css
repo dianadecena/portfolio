@@ -50,8 +50,7 @@
 }
 
 .overlay ul li a {
-  color: transparent;
-  -webkit-text-stroke: 1px white;
+  color: white;
   text-transform: uppercase !important;
 }
 
