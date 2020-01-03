@@ -25,7 +25,7 @@ const App = () => {
   const principalProps = useSpring({
     from: { opacity: 0},
     to: { opacity: 1},
-    reset: true,
+    delay: 1000,
     config: { duration: 2000, easing: easeSinIn },
   });
 
