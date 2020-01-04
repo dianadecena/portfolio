@@ -168,6 +168,7 @@
   .container {
     position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: black;
   }
 
@@ -176,7 +177,7 @@
   }
 
   .menu {
-    margin-left: 86%;
+    margin-left: 85%;
   }
 
   .close {
