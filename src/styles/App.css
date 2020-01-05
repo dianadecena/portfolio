@@ -621,7 +621,7 @@
   }
 
   .descripcion {
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 4%;
     margin-right: 2%;
     margin-top: 5%;
@@ -636,7 +636,7 @@
   }
 
   .contact-box {
-    margin-top: 106%;
+    margin-top: 110%;
     margin-left: 60%;
   }
 }
