@@ -596,11 +596,11 @@
   }
 
   .menu {
-    margin-left: 96%;
+    margin-left: 93%;
   }
   
   .close {
-    margin-left: 94%;
+    margin-left: 93%;
   }
 
   .bg-mobile {
@@ -612,7 +612,7 @@
   }
 
   .box-info {
-    margin-top: 60%;
+    margin-top: 70%;
     margin-left: 10%;
     border-width: 2px;
     border-style: solid;
@@ -621,7 +621,7 @@
   }
 
   .descripcion {
-    font-size: 10px;
+    font-size: 24px;
     margin-left: 4%;
     margin-right: 2%;
     margin-top: 5%;
@@ -629,14 +629,14 @@
   }
 
   .nombre {
-    font-size: 26px;
+    font-size: 36px;
     margin-left: 4%;
     margin-top: 4%;
     font-weight: 700;
   }
 
   .contact-box {
-    margin-top: 98%;
+    margin-top: 99%;
     margin-left: 60%;
   }
 }
