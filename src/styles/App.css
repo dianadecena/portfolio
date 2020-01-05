@@ -596,7 +596,11 @@
   }
 
   .menu {
-    margin-left: 86%;
+    margin-left: 96%;
+  }
+  
+  .close {
+    margin-left: 94%;
   }
 
   .bg-mobile {
@@ -632,7 +636,7 @@
   }
 
   .contact-box {
-    margin-top: 90%;
+    margin-top: 98%;
     margin-left: 60%;
   }
 }
