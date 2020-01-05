@@ -497,24 +497,17 @@
 
   .bg {
     position: absolute;
-    margin-left: 15%;
+    margin-left: 4%;
     margin-right: auto;
-  }
+    margin-top: 8%;
+  }  
 
-  .about {
-    display: none;
-  }
-
-  .projects {
-    display: none;
-  }
-
-  .contact {
-    display: none;
+  .contact-box {
+    margin-top: 50%;;
   }
 
   .box-info {
-    margin-top: 20%;
+    margin-top: 28%;
     margin-left: 20%;
     border-width: 2px;
     border-style: solid;
@@ -548,7 +541,17 @@
     position: absolute;
     margin-left: 4%;
     margin-right: auto;
+    margin-top: 8%;
   }  
+
+  .box-info {
+    margin-top: 28%;
+  }
+
+  .contact-box {
+    margin-top: 50%;;
+  }
+  
 }
 
 @media (max-width: 1280px) and (min-width: 1000px) {
@@ -558,21 +561,17 @@
 
   .bg {
     position: absolute;
-    width: 95%;
     margin-left: 4%;
     margin-right: auto;
+    margin-top: 6%;
   }
 
-  .about {
-    display: none;
+  .box-info {
+    margin-top: 28%;
   }
 
-  .projects {
-    display: none;
-  }
-
-  .contact {
-    display: none;
+  .contact-box {
+    margin-top: 50%;
   }
 
 }
