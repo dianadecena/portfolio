@@ -499,7 +499,8 @@
     position: absolute;
     margin-left: 4%;
     margin-right: auto;
-    margin-top: 8%;
+    margin-top: 3%;
+    width: 99%;
   }  
 
   .contact-box {
@@ -532,7 +533,21 @@
 
 }
 
-@media (max-width: 1500px) and (min-width: 1281px) {
+@media (max-width: 1500px) and (min-width: 1420px) {
+  .bg-mobile {
+    display: none;
+  }
+
+  .bg {
+    position: absolute;
+    margin-left: 4%;
+    margin-right: auto;
+    margin-top: 8%;
+  }  
+  
+}
+
+@media (max-width: 1400px) and (min-width: 1281px) {
   .bg-mobile {
     display: none;
   }
